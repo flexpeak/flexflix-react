@@ -13,3 +13,8 @@ Uma aplicação feita em ReactJS que consome a API do [TMDB](https://www.themovi
  - [Lodash](https://lodash.com/)
 
  ## Imagens
+<img src='https://github.com/flexpeak/flexflix-react/blob/main/public/prints/01.png' width="400px"/>
+<img src='https://github.com/flexpeak/flexflix-react/blob/main/public/prints/02.png' width="400px"/>
+<img src='https://github.com/flexpeak/flexflix-react/blob/main/public/prints/05.png' width="400px"/>
+<img src='https://github.com/flexpeak/flexflix-react/blob/main/public/prints/03.png' width="400px"/>
+<img src='https://github.com/flexpeak/flexflix-react/blob/main/public/prints/04.png' width="400px"/>
