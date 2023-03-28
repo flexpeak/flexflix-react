@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import { Link, NavLink } from 'react-router-dom'
+import PesquisarFilme from '../PesquisarFilme/PesquisarFilme'
 import logo from './logo.png'
 
 const MeuNavbar = () => {
@@ -8,7 +9,7 @@ const MeuNavbar = () => {
         <Navbar expand="lg" className='navbar-dark'>
             <Container>
                 <Link to='/' className='navbar-brand me-4'>
-                    <img src={ logo } alt="Logo" width="140px"/>
+                    <img src={logo} alt="Logo" width="140px" />
                 </Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -18,6 +19,7 @@ const MeuNavbar = () => {
                         <NavLink to="/filmes" className='nav-link'>Filmes</NavLink>
                         <NavLink to="/bombando" className='nav-link'>Bombando</NavLink>
                     </Nav>
+                    <PesquisarFilme/>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

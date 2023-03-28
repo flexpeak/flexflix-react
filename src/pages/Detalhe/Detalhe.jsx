@@ -1,7 +1,6 @@
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect, useState } from 'react'
-import { Carousel } from 'react-bootstrap'
 import { useNavigate, useParams } from 'react-router-dom'
 import api from '../../services/api'
 import styles from './Detalhe.module.css'

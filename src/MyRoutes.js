@@ -5,6 +5,7 @@ import Detalhe from './pages/Detalhe/Detalhe'
 import Error404 from './pages/Error404/Error404'
 import Filmes from './pages/Filmes/Filmes'
 import Index from './pages/Index/Index'
+import Pesquisar from './pages/Pesquisar/Pesquisar'
 import Series from './pages/Series/Series'
 
 const MyRoutes = () => {
@@ -15,6 +16,7 @@ const MyRoutes = () => {
       <Route path='/filmes' element={<Filmes/>}/>
       <Route path='/bombando' element={<Bombando/>}/>
       <Route path='/detalhe/:id' element={<Detalhe/>}/>
+      <Route path='/pesquisar' element={<Pesquisar/>}/>
       <Route path='*' element={<Error404/>}/>
     </Routes>
   )
